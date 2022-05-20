@@ -2,6 +2,8 @@
 /*                Variables                      */
 /* ============================================= */
 
+//Colors
+
 $primary-color: #58e1c1;
 $secondary-color: #777;
 $accent-color: #51ddfc;
@@ -11,6 +13,23 @@ $info-color: #927bc1;
 $success-color: #63cc82;
 $warning-color: #fd7856;
 $frame-color: #ccc;
+
+$col_colors: (
+1: #927bc1,
+2: #fd7856,
+3: #deb2ee,
+4: #7ee6fd,
+5: #88d9a0,
+6: #4da2bb,
+7: #ec9fa3,
+8: #fd9f85,
+9: #e4757a,
+10: #63cc82,
+11: #51ddfc,
+12: #80e8d1,
+);
+
+// Sizes
 $breakpoint: 768px;
 $base-margin-padding: 10px;
-  
+

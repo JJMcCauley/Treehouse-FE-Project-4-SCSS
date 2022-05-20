@@ -1,3 +1,14 @@
 /* ============================================= */
 /*                Mixins                         */
 /* ============================================= */
+
+// Creates column based on given number
+
+@mixin themed_col($col_num) {
+    .theme.col-#{$col_num} {
+        background-color: map-get($col_colors, $col_num);
+    }
+}
+
+
+ 
